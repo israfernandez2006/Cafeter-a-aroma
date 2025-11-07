@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aroma - Tu lugar especial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Café Aroma</div>
+        <div class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#menu">Menú</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <header class="hero" id="inicio">
+        <h1>Bienvenido a Café Aroma</h1>
+        <p>Un espacio donde cada taza cuenta una historia</p>
+    </header>
+
+    <section class="menu-section" id="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <p>Café puro y aromático</p>
+                <span class="precio">2.50€</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>Espresso con espuma de leche</p>
+                <span class="precio">3.50€</span>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <p>Suave y cremoso</p>
+                <span class="precio">3.00€</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En Café Aroma, nos dedicamos a servir el mejor café de la ciudad desde 2020. 
+           Nuestros granos son seleccionados cuidadosamente y tostados a la perfección.</p>
+    </section>
+
+    <section class="contact-section" id="contacto">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Café Aroma. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="actions.js"></script>
+</body>
+</html>
